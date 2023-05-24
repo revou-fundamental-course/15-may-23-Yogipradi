@@ -1,0 +1,140 @@
+/* dibawah merupakan kode css general */
+body {
+    background: lightgray;
+}
+
+.welcomekatik {
+    background-color: #f0f8ff;
+    justify-content: center;    
+    align-items: center;
+}
+
+spen.title {
+    font-weight: bold;
+    color: #7bffda;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+spen.sub-title {
+    font-size: revert;
+    font-size: 30px;
+}
+
+.figure {
+    min-height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background: #9c9e9f;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.container {
+    margin: 20px;
+  }
+
+label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+/* kode dibawah untuk css menghitung Luas */
+ 
+.cardLuas {
+    background: white;
+}
+
+#output_luas {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.hitungluaspersegi {
+    background-color: olive;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.rumusluas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.judulhitungluaspersegi {
+    background-color: aqua;
+    font-family: Impact;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* dibawah ini css form menghitung keliling */
+
+.cardKeliling {
+    background: white;
+}
+
+.judulhitungkelilingpersegi {
+    background-color: rgb(53, 211, 93);
+    font-family: Impact;
+    display: flex;
+    justify-content: center;
+}
+
+.hitungkelilingpersegi {
+    background-color: rgb(167, 84, 6);
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.rumusKeliling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* kode dibawah untuk css button */
+
+.hitung {
+    display: inline-block;
+    background: #4285F4;
+    color: #fff;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    border: thin solid #888;
+    box-shadow: 1px 1px 1px grey;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    margin: 2rem 0;
+    display: grid;
+    place-items: center;
+}
+
+.reset {
+    background: #c5a203;
+}
+
+button {
+    padding: 5px 10px;
+  }
